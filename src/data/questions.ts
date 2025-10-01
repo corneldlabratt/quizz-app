@@ -7,80 +7,55 @@ interface QuestionsByDifficulty {
 export const questions: QuestionsByDifficulty = {
   easy: [{
     id: 1,
-    question: 'What is the capital of France?',
-    options: ['Berlin', 'Madrid', 'Paris', 'Rome'],
-    correctAnswer: 'Paris'
+    question: 'What is Citrea?',
+    options: ['Fruit', 'Bitcoin\'s first ZK rollup', 'ETH security layer', 'Rollie nickname'],
+    correctAnswer: 'Bitcoin\'s first ZK rollup'
   }, {
     id: 2,
-    question: 'Which planet is known as the Red Planet?',
-    options: ['Earth', 'Mars', 'Jupiter', 'Venus'],
-    correctAnswer: 'Mars'
+    question: 'Who is the co-founder of Citrea?',
+    options: ['Solace', 'Rollie', 'Moleh', 'Orkun'],
+    correctAnswer: 'Orkun'
   }, {
     id: 3,
-    question: 'What is 2 + 2?',
-    options: ['3', '4', '5', '6'],
-    correctAnswer: '4'
+    question: 'Citrea is designed to enhance which aspect of Bitcoin?',
+    options: ['Transaction speed only', 'Blockspace for programmable applications', 'Hardware wallet compatibility', 'Fiat on-ramps'],
+    correctAnswer: 'Blockspace for programmable applications '
   }, {
     id: 4,
-    question: 'Which of these is a fruit?',
-    options: ['Carrot', 'Potato', 'Apple', 'Broccoli'],
-    correctAnswer: 'Apple'
+    question: 'What role gives you full access to discord?',
+    options: ['OG', 'Citrus champion', 'Citreans', 'Core team'],
+    correctAnswer: 'Citreans'
   }, {
     id: 5,
-    question: 'How many continents are there?',
-    options: ['5', '6', '7', '8'],
-    correctAnswer: '7'
-  }],
-  medium: [{
-    id: 1,
-    question: 'Who painted the Mona Lisa?',
-    options: ['Vincent van Gogh', 'Pablo Picasso', 'Leonardo da Vinci', 'Michelangelo'],
-    correctAnswer: 'Leonardo da Vinci'
+    question: 'Where does Citrea keep its data availability and settlement?',
+    options: ['On Ethereum', 'Off-chain in a database', 'On Bitcoin\'s blockchain', 'On Solana'],
+    correctAnswer: 'On Bitcoin\'s blockchai'
   }, {
-    id: 2,
-    question: 'What is the chemical symbol for gold?',
-    options: ['Go', 'Gd', 'Au', 'Ag'],
-    correctAnswer: 'Au'
+    id: 6,
+    question: 'Is Citrea compatible with Ethereum\'s virtual machine?  ',
+    options: ['No, it\'s Bitcoin-script only', 'Yes, it\'s EVM-compatible', ' Partially, only for DeFi', 'Only for NFTs'],
+    correctAnswer: 'Yes, it\'s EVM-compatible'
   }, {
-    id: 3,
-    question: 'What year did World War II end?',
-    options: ['1943', '1945', '1947', '1950'],
-    correctAnswer: '1945'
+    id: 7,
+    question: 'What is Citrea primarily known as?',
+    options: ['A Bitcoin wallet', 'Bitcoin\'s first zero-knowledge rollup', 'A decentralized exchange on Ethereum', ' A mining protocol for Bitcoin'],
+    correctAnswer: 'Bitcoin\'s first zero-knowledge rollup'
   }, {
-    id: 4,
-    question: 'Which element has the atomic number 1?',
-    options: ['Oxygen', 'Carbon', 'Hydrogen', 'Helium'],
-    correctAnswer: 'Hydrogen'
+    id: 8,
+    question: 'What month did the UNFREEZE CAMPAIGN start?',
+    options: ['August', 'April', 'July', 'June'],
+    correctAnswer: 'July'
   }, {
-    id: 5,
-    question: 'What is the largest mammal on Earth?',
-    options: ['Elephant', 'Blue Whale', 'Giraffe', 'Polar Bear'],
-    correctAnswer: 'Blue Whale'
-  }],
-  hard: [{
-    id: 1,
-    question: 'In quantum physics, what is the name of the principle that states you cannot know both the position and momentum of a particle precisely?',
-    options: ['Theory of Relativity', 'Heisenberg Uncertainty Principle', 'Pauli Exclusion Principle', "Schrödinger's Equation"],
-    correctAnswer: 'Heisenberg Uncertainty Principle'
+    id: 9,
+    question: 'Total amount raised by citrea?',
+    options: ['$30 million', '$16.7 million', '$7 million', '$1 billion'],
+    correctAnswer: '$16.7 million'
   }, {
-    id: 2,
-    question: 'What is the smallest prime number greater than 100?',
-    options: ['101', '103', '107', '109'],
-    correctAnswer: '101'
-  }, {
-    id: 3,
-    question: 'Which programming language was developed by Brendan Eich in 1995?',
-    options: ['Java', 'Python', 'JavaScript', 'C++'],
-    correctAnswer: 'JavaScript'
-  }, {
-    id: 4,
-    question: 'What is the capital of Kazakhstan?',
-    options: ['Astana', 'Almaty', 'Bishkek', 'Tashkent'],
-    correctAnswer: 'Astana'
-  }, {
-    id: 5,
-    question: 'Which scientist proposed the theory of general relativity?',
-    options: ['Isaac Newton', 'Niels Bohr', 'Albert Einstein', 'Stephen Hawking'],
-    correctAnswer: 'Albert Einstein'
-  }]
+    id: 10,
+    question: 'How many members does citrea discord community have?',
+    options: ['56k', '20k', '100k', '40k'],
+    correctAnswer: '56k'
+  },],
+  medium: [],
+  hard: []
 };
